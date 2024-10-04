@@ -1,0 +1,11 @@
+{
+  "name": "naive-nodemon",
+  "version": "1.0.0",
+  "bin": "bin/naive-nodemon.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
