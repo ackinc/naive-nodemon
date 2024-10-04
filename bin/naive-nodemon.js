@@ -14,7 +14,7 @@ let cp;
 
 startChild();
 
-fs.watch(path.dirname(filepath), () => {
+fs.watch(path.dirname(filepath), { recursive: true }, () => {
   console.log(`Restarting due to file changes ...`);
   restartChild();
 });
